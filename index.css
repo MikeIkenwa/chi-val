@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #2B0A1A;
+    color: #FFF8F5;
+    overflow-x: hidden;
+  }
+}
+
+/* Hide scrollbar for immersive feel */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
